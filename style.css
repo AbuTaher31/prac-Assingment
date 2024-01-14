@@ -77,35 +77,37 @@ main {
 .teams-container {
   display: flex;
   justify-content: space-between;
-  padding: 0px 110px;
-  margin: 60px 0;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: 60px 0px;
 }
 .teams-img {
+  width: 600px;
 }
 .teams-img img {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   padding: 5px 5px;
 }
 .teams-content {
   height: 320px;
-  width: 800px;
+  width: 500px;
   border: 1px solid #eee;
   margin: auto;
 }
 .teams-content .span1 {
   color: #727272;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 .teams-content .span2 {
   color: #131313;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 .teams-content .span3 {
   color: #ff900e;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 .teams-content p {
